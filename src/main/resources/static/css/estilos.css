@@ -1,0 +1,66 @@
+/* Definir los estilos */
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+article header {
+    text-align: left;
+    background-color: brown;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+/* ID */
+#titulo{
+
+    font-size: 40px;
+    text-align: center;
+    background-color: beige;
+    color: brown;
+
+}
+
+
+/* clases */
+.producto{
+
+    background-color: wheat;
+
+}
+
+/* Enlaces */
+nav a {
+
+    background-color: tan;
+    color: chocolate;
+
+}
+/* Enlaces, el mouse sobre el enlace */
+nav a:hover{
+
+    background-color: maroon;
+    color: chocolate;
+    font-size: 20px;
+    animation-delay: 2s;
+
+}
+
+article:odd{
+    
+    
+    
+}
+
+article:even{
+    
+    
+    
+}
