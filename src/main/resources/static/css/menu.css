@@ -1,26 +1,34 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    padding: 90px 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    background-color: #076AF0;
-    height: 90px;
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
 }
 
 .nav-link {
@@ -28,32 +36,103 @@ body {
     text-decoration: none;
 }
 
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 90px;
+/* ESTILOS DEL AUDIO */
+#audi {
+  float: left;
+  width: 33.2%;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #ccc;
+  border: solid;
+  border-radius: 600px;
+  border-color: #666;
+  padding: 20px;
 }
 
-.nav-menu {
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
+#textoAudio{
+    
+    text-align: center;
+    
+    
 }
 
-.nav-menu-item {
-    font-size: 18px;
-    margin: 0 10px;
-    line-height: 90px;
+/* ESTILOS DEL VÍDEO */
+#vid {
+    float: left;
+  width: 520;
+  height: 240;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 20px;
+  background: #ccc;
+  border: solid;
+  border-color: #666;
+  padding: 20px;
 }
 
-.nav-menu-link:hover {
-    background-color: #024070;
-    transition: 1s;
+#textoVid{
+    text-align: center;
+    
 }
 
-.nav-menu-link {
-    padding: 8px 12px;
-    border-radius: 8px;
+/* ESTILOS DEL iframe */
+#iframe {
+   float: left;
+  width: 520;
+  height: 240;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 20px;
+  background: #ccc;
+  border: solid;
+  border-color: #666;
+  padding: 20px;
 }
 
+.nav-inicio{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100px;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  padding-bottom: 40px;
+  border: solid;
+  border-color: #666;
+  
+}
+
+#textoMenu{
+    
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

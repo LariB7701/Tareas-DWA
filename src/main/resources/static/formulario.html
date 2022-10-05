@@ -3,108 +3,118 @@
     <head>
         <title>TechShop</title>
         <meta charset="UTF-8">
-
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
 
+
         <section>
 
-            <h2>Ejemplos de formularios</h2>
+
+
+
             <article>
 
-                <header><h3>Ingrese la información</h3></header>
+                <header><h2>Formulario</h2><h3>Ingrese la información que se le solicita</h3></header>
+
+                <section >
+                    <nav class="nav-inicio " >
+                        <a class="nav-menu-link nav-link"  href="index.html">Inicio</a>
+
+                    </nav>
+                </section>
 
                 <form action="/cliente/ingresar" method="post">
-                    
+
                     <input type="hidden"
                            name="id"
                            value="AB-450">
-                    
+
                     <fieldset>
-                    
+
                         <label> Nombre </label>
                         <input 
                             type="text" 
                             name="nombre"
                             placeholder="Apellido1 Apellido2 Nombre"
                             size="45">
-                        
+
                     </fieldset>
-                    
+
                     <fieldset>
-                    
-                       <label> Edad </label>
-                       <input 
+
+                        <label> Edad </label>
+                        <input 
                             type="number" 
                             name="edad"
                             min="18"
                             max="65">
-                        
+
                     </fieldset>
-                    
+
                     <fieldset>
-                    
-                       <label> Aficionado a: </label>
-                       Anime <input 
+
+                        <label> Aficionado a: </label>
+                        Anime <input 
                             type="checkbox" 
                             name="anime">
-                       Drama <input 
+                        Drama <input 
                             type="checkbox" 
                             name="drama">
-                       Comedia <input 
+                        Comedia <input 
                             type="checkbox" 
                             name="comedia">
-                       Documental <input 
+                        Documental <input 
                             type="checkbox" 
                             name="documental">
-                       
+
                     </fieldset>
-                    
+
                     <fieldset>
-                    
-                       <label> Tipo de horario </label>
-                       Presencial <input 
+
+                        <label> Tipo de horario </label>
+                        Presencial <input 
                             type="radio" 
                             name="horario"
                             value="presencial">
-                       Virtual <input 
+                        Virtual <input 
                             type="radio" 
                             name="horario"
                             value="virtual">
-                       Online <input 
+                        Online <input 
                             type="radio" 
                             name="horario"
                             value="online">
-                       Bimodal <input 
+                        Bimodal <input 
                             type="radio" 
                             name="horario"
                             value="bimodal">
-                       
+
                     </fieldset>
-                    
+
                     <fieldset>
-                        
-                       <label> Fecha de cita </label>
-                            Día: <input
-                                type="date"
-                                name="dia"><br>
-                            Hora <input
-                                type="time"
-                                name="hora"><br>
-                       
+
+                        <label> Fecha de cita </label>
+                        Día: <input
+                            type="date"
+                            name="dia"><br>
+                        Hora <input
+                            type="time"
+                            name="hora"><br>
+
                     </fieldset>
-                    
+
                     <fieldset>
-                        
-                       <label> Clave de ingreso </label>
-                            Contraseña: <input
-                                type="password"
-                                name="clave">
-                           
+
+                        <label> Clave de ingreso </label>
+                        Contraseña: <input
+                            type="password"
+                            name="clave">
+
                     </fieldset>
-                    
+
                     <input type="submit" value="enviar" name="enviar"/>
-                    
+
                 </form>
 
                 <footer><small> No distribuimos sus datos, confíe</small></footer>
